@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 .App {
   text-align: center;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .header {
@@ -9,4 +12,35 @@
   background-image: url(../public/img/main.png);
   background-size: cover;
   background-position: center;
+}
+
+.menu {
+  position: absolute;
+  width: 100%;
+  font-weight: 100;
+  color: white;
+}
+
+.wrapper {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-menu-main-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  gap: 30px;
+}
+
+.header-menu-right {
+  text-align: right;
 }
