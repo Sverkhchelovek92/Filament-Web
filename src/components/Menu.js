@@ -16,7 +16,7 @@ function Menu() {
             </ul>
           </div>
           <div className="header-menu-right">
-            <button>Обсудить проект</button>
+            <button className="header-btn">Обсудить проект</button>
           </div>
         </div>
       </div>

@@ -8,9 +8,8 @@
 }
 
 body {
-  background: linear-gradient(transparent 50%, rgba(0, 0, 0, 0.1) 50%);
-  background-size: 4px 4px;
-  opacity: 0.95;
+  background: url(/public/img/noise-texture.png);
+  opacity: 0.9;
 }
 
 .header {
@@ -51,6 +50,13 @@ body {
 
 .header-menu-right {
   text-align: right;
+}
+
+.header-btn {
+  background-color: transparent;
+  border: 1px solid white;
+  font-family: 'Montserrat', sans-serif;
+  cursor: pointer;
 }
 
 .infoblock {
