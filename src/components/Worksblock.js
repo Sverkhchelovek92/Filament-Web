@@ -1,7 +1,7 @@
 import React from 'react'
 
 function Worksblock() {
-  return <div>Worksblock</div>
+  return <div className="wrapper">Worksblock</div>
 }
 
 export default Worksblock
