@@ -59,6 +59,8 @@ body {
   cursor: pointer;
 }
 
+/* Info */
+
 .infoblock {
   margin-top: 160px;
 }
@@ -66,4 +68,23 @@ body {
 .infoblock_1 {
   font-size: 40px;
   font-weight: 600;
+}
+
+/* Works */
+
+.works-catalogue {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.video-card {
+  width: 32.5%;
+  cursor: pointer;
+}
+
+.video-thumbnail {
+  overflow: hidden;
+  aspect-ratio: 16 / 9;
+  width: 100%;
 }
