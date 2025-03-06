@@ -83,6 +83,18 @@ body {
   cursor: pointer;
 }
 
+@media (max-width: 1024px) {
+  .video-card {
+    width: 48.5%;
+  }
+}
+
+@media (max-width: 600px) {
+  .video-card {
+    width: 100%;
+  }
+}
+
 .video-thumbnail {
   overflow: hidden;
   aspect-ratio: 16 / 9;
