@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import { useState } from 'react'
 
@@ -20,7 +21,9 @@ function VideoCard({ video }) {
       ></img>
 
       <div className="video-info">
-        <h3 className="video-title">{video.title}</h3>
+        <Link to={`/video/${video.id}`}>
+          <h3 className="video-title">{video.title}</h3>
+        </Link>
         <p className="video-text">{video.text}</p>
       </div>
     </div>
