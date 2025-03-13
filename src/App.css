@@ -21,6 +21,10 @@ button {
   cursor: pointer;
 }
 
+.logo {
+  cursor: pointer;
+}
+
 .header {
   position: relative;
   width: 100%;
