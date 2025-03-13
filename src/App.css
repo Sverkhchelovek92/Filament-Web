@@ -17,6 +17,10 @@ a {
   color: inherit;
 }
 
+button {
+  cursor: pointer;
+}
+
 .header {
   position: relative;
   width: 100%;
@@ -104,4 +108,91 @@ a {
   overflow: hidden;
   aspect-ratio: 16 / 9;
   width: 100%;
+}
+
+/* Feedback Block */
+
+.main-feedback {
+  margin-top: 150px;
+}
+
+.main-feedback-title h1 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.main-feedback-container {
+  max-width: 50%;
+  margin: auto;
+}
+
+.main-feedback-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-feedback-form-top {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 18px;
+}
+
+.feedback-input-name,
+.feedback-input-email {
+  width: 48.42%;
+  border: 1px solid #323232;
+  border-radius: 8px;
+  height: 40px;
+  padding: 10px;
+}
+
+.feedback-input-text {
+  width: 100%;
+  border: 1px solid #323232;
+  border-radius: 8px;
+  box-sizing: border-box;
+  padding: 10px;
+  height: 120px;
+  text-align: left;
+  vertical-align: top;
+  margin-bottom: 18px;
+}
+
+.feedback-input-bottom {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 150px;
+}
+
+.feedback-input-bottom-left {
+  display: flex;
+}
+
+.feedback-input-bottom-left,
+.feedback-input-bottom-right {
+  width: 48.42%;
+}
+
+.feedback-checkbox-div {
+  border: 1px solid #323232;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-right: 15px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.feedback-checkbox {
+  cursor: pointer;
+}
+
+.feedback-submit-btn {
+  border: 1px solid #323232;
+  width: 100%;
+  padding: 10px 0;
+  border-radius: 8px;
 }
