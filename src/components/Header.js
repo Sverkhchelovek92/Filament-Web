@@ -1,10 +1,15 @@
 import React from 'react'
 import Menu from './Menu'
 
-function Header() {
+function Header({ scrollToSection, infoRef, worksRef, feedbackRef }) {
   return (
     <div className="header">
-      <Menu />
+      <Menu
+        scrollToSection={scrollToSection}
+        infoRef={infoRef}
+        worksRef={worksRef}
+        feedbackRef={feedbackRef}
+      />
     </div>
   )
 }

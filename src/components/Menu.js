@@ -2,7 +2,7 @@ import React from 'react'
 
 import logo from './../logo.svg'
 
-function Menu() {
+function Menu({ scrollToSection, infoRef, worksRef, feedbackRef }) {
   return (
     <div className="menu">
       <div className="wrapper">
@@ -14,9 +14,24 @@ function Menu() {
           </div>
           <div className="header-menu-main">
             <ul className="header-menu-main-list">
-              <li className="header-menu-main-link">Работы</li>
-              <li className="header-menu-main-link">О нас</li>
-              <li className="header-menu-main-link">Контакты</li>
+              <li
+                className="header-menu-main-link"
+                onClick={() => scrollToSection(worksRef)}
+              >
+                Работы
+              </li>
+              <li
+                className="header-menu-main-link"
+                onClick={() => scrollToSection(infoRef)}
+              >
+                О нас
+              </li>
+              <li
+                className="header-menu-main-link"
+                onClick={() => scrollToSection(feedbackRef)}
+              >
+                Контакты
+              </li>
             </ul>
           </div>
           <div className="header-menu-right">

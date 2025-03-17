@@ -61,6 +61,10 @@ button {
   gap: 30px;
 }
 
+.header-menu-main-link {
+  cursor: pointer;
+}
+
 .header-menu-right {
   text-align: right;
 }
