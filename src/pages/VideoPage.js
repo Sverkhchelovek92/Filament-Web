@@ -13,7 +13,7 @@ function VideoPage() {
   }
 
   return (
-    <div>
+    <div className="video-page">
       <h1>{video.title}</h1>
       <p>{video.text}</p>
     </div>
