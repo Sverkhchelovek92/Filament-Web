@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 import { useState } from 'react'
 
-function VideoCard({ video }) {
+function VideoCard({ video, onVideoClick }) {
   const [isHovered, setIsHovered] = useState(false)
 
   return (
@@ -11,6 +11,7 @@ function VideoCard({ video }) {
       <img
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
+        onClick={() => onVideoClick(video.videoUrl)}
         className="video-thumbnail"
         alt={video.title}
         src={
