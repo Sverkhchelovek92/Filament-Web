@@ -7,7 +7,7 @@ const VideoData = [
     gif: '01.gif',
     text: 'Рекламный ролик для компании по производству бытовой техники Haier',
     year: 2018,
-    videoUrl: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+    videoUrl: '/videos/Tech.mp4',
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ const VideoData = [
     gif: '02.gif',
     text: 'Рекламный ролик с Владимиром Познером',
     year: 2018,
-    videoUrl: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+    videoUrl: '/videos/Pozner.mp4',
   },
   {
     id: 3,
@@ -27,7 +27,7 @@ const VideoData = [
     gif: '03.gif',
     text: 'Ролик для агентства недвижимости в Дубае',
     year: 2018,
-    videoUrl: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+    videoUrl: '/videos/Dubai.mp4',
   },
   {
     id: 4,
@@ -37,7 +37,7 @@ const VideoData = [
     gif: '04.gif',
     text: 'Ролик для компании по производству электронных самокатов',
     year: 2018,
-    videoUrl: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+    videoUrl: '/videos/Escoot.mp4',
   },
   {
     id: 5,
@@ -47,7 +47,7 @@ const VideoData = [
     gif: '05.gif',
     text: 'Ролик для компании METEK',
     year: 2018,
-    videoUrl: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+    videoUrl: '/videos/Metek.mp4',
   },
   {
     id: 6,
@@ -57,7 +57,7 @@ const VideoData = [
     gif: '06.gif',
     text: 'Ролик для хоккейного клуба "Северсталь"',
     year: 2018,
-    videoUrl: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+    videoUrl: '/videos/Hockey.mp4',
   },
 ]
 

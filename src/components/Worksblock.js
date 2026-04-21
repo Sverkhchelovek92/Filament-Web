@@ -4,7 +4,7 @@ import VideoData from '../data/VideoData'
 import VideoCard from './VideoCard'
 
 import ReactModal from 'react-modal'
-import ReactPlayer from 'react-player'
+// import ReactPlayer from 'react-player'
 
 ReactModal.setAppElement('#root')
 
@@ -47,11 +47,12 @@ function Worksblock() {
         <button className="close-button" onClick={closeModal}>
           ✖
         </button>
-        <ReactPlayer
-          url={currentVideoUrl}
+        <video
+          src={currentVideoUrl}
           controls
-          width="100%"
-          height="100%"
+          autoPlay
+          muted
+          style={{ width: '100%', height: '100%' }}
         />
       </ReactModal>
     </div>
